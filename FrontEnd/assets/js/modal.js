@@ -37,8 +37,6 @@ const displayWorks = (worksToDisplay) => {
             } else {
                 console.error('La suppression a échoué');
             }
-
-
         });
     }
 }
@@ -57,7 +55,6 @@ const ajouterPhoto = document.querySelector(".button-ad-photo")
 const returnModal = document.querySelector(".return-modal")
 const closeModalTwo = document.querySelector('.close-modal-two')
 const overlayTwo = document.querySelector('.overlay-two')
-
 
 const toggleModal = (modalClassName) => {
     const isShownModal = document.querySelector(`.${modalClassName}`).style.display !== "none";
