@@ -353,14 +353,14 @@ li a:visited {
     flex-direction: row;
 }
 
-.icon-modifier {
+.icon-modify {
     margin-top: 10px;
     margin-left: 15px;
     cursor: pointer;
     display: none;
 }
 
-.button-modifier {
+.button-modify {
     margin-left: 5px;
     margin-top: 10px;
     cursor: pointer;
@@ -457,7 +457,7 @@ li a:visited {
     right: 135px;
 }
 
-.button-ad-photo {
+.button-add-photo {
     padding: 10px 39px;
     position: absolute;
     bottom: 7%;
@@ -506,11 +506,11 @@ li a:visited {
     margin-top: 13px;
 }
 
-.ajouter-photo {
+.add-photo {
     margin-top: 16px;
 }
 
-.ajouter-photo label {
+.add-photo label {
     position: relative;
     padding: 10px 33px;
     border-radius: 50px;
@@ -540,7 +540,7 @@ li a:visited {
     font-size: 10px;
 }
 
-.modal-formulaire {
+.modal-form {
     margin: 30px auto;
     gap: 10px;
     width: 420px;
@@ -549,7 +549,7 @@ li a:visited {
     justify-content: center;
 }
 
-.modal-formulaire input,
+.modal-form input,
 select {
     background-color: white;
     color: #444;
@@ -561,14 +561,14 @@ select {
     margin-bottom: 21px;
 }
 
-.modal-formulaire label {
+.modal-form label {
     color: #3D3D3D;
     font-family: 'Work Sans';
     font-size: 14px;
     font-weight: 500;
 }
 
-.valider-photo {
+.validate-photo {
     padding: 10px 98px;
     position: absolute;
     bottom: 8%;
@@ -605,7 +605,7 @@ select {
     font-family: 'Syne', sans-serif;
 }
 
-.btnTous {
+.btnAll {
     background: #1D6154;
     color: white;
 }

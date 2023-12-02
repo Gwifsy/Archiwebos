@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (response.ok && data.token && data.userId) {
             localStorage.setItem('token', data.token);
             localStorage.setItem('userId', data.userId)
-            location.href = "http://127.0.0.1:5500/index.html";
+            location.href = "http://127.0.0.1:5500/FrontEnd/index.html";
         } else {
             errorMessage.textContent = "Erreur : informations de connexion invalides.";
         }
