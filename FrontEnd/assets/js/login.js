@@ -22,10 +22,10 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         const data = await response.json();
 
-        if (response.ok && data.token && data.userId) {
+        if (response.ok) {
             localStorage.setItem('token', data.token);
             localStorage.setItem('userId', data.userId)
-            location.href = "http://127.0.0.1:5500/FrontEnd/index.html";
+            location.href = "http://127.0.0.1:5500/index.html";
         } else {
             errorMessage.textContent = "Erreur : informations de connexion invalides.";
         }
