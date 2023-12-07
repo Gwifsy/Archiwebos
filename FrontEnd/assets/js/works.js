@@ -106,7 +106,7 @@ if (token) {
     if (buttonModify) buttonModify.style.display = 'block';
     logoutButton.addEventListener('click', () => {
         localStorage.clear();
-        location.href = "http://127.0.0.1:5500/index.html";
+        location.href = "index.html";
     });
     categoriesButtons.forEach(button => {
         button.style.display = 'none';
